@@ -1,0 +1,32 @@
+.profileBox {
+  border: solid black 1px;
+  width: 250px;
+  height: 300px;
+  text-align: center; }
+  .profileBox img {
+    max-width: 200px;
+    max-height: 200px; }
+
+#otherProfilesContainer article {
+  display: inline-block;
+  float: left;
+  height: 700px;
+  width: 30%;
+  border: solid black 1px;
+  margin: 5px;
+  padding: 5px; }
+  #otherProfilesContainer article img {
+    margin-left: 25%;
+    height: 200px;
+    width: 200px; }
+  #otherProfilesContainer article aside {
+    margin: 5px 0;
+    border: solid black 1px;
+    padding: 5px; }
+
+label {
+  display: inline-block;
+  margin: 5px;
+  width: 120px; }
+
+/*# sourceMappingURL=style.css.map */
