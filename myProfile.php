@@ -35,22 +35,17 @@ session_start();
             </textarea>
             <br>
             <label for="inputDatingspot">Favorit datingspot</label>
-            <input id="inputDatingspot" type="text" name="datingspot" value="<?php echo $user[0]['favoritDatingSpot'] ?>" />
+            <textarea id = "inputDatingspot" rows="4" cols="50" name="datingspot"><?php echo $user[0]['favoritDatingSpot'] ?>
+            </textarea>
             <br>
-            <label for="inputPicture">Age</label>
+            <label for="inputPicture">Profile picture</label>
             <input id="inputPicture" type="text" name="picture" value="<?php echo $user[0]['profilePicture'] ?>" />
             <br>
-            <input type="submit" value="update">
+            <input type="submit" value="Update">
     </form>
 
-
-
-
-
-
-
     <form action="mainpage.php">
-        <input type="submit" value="back">
+        <input type="submit" value="Back">
     </form>
 </body>
 </html>

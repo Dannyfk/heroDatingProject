@@ -19,14 +19,14 @@
         <!-- A form with a select containing all the users. After selecting a user the button redirects to the mainpage as that user -->
         <form action="mainpage.php">
             <select name="users">
-    <?php
-        foreach ($users as $row){
-    ?>
-            <option value="<?php echo $row['superheroName'] ?>"><?php echo $row['superheroName'] ?></option>
-    <?php    
-    }
-    ?>
-        </select>
+                <?php
+                    foreach ($users as $row){
+                ?>
+                    <option value="<?php echo $row['superheroName'] ?>"><?php echo $row['superheroName'] ?></option>
+                <?php    
+                    }
+                ?>
+             </select>
             <input type="submit" value="Select">
         </form>
     <?php

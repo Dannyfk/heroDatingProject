@@ -1,25 +1,26 @@
 .profileBox {
+  display: inline-block;
   border: solid black 1px;
   width: 250px;
-  height: 300px;
+  height: 400px;
   text-align: center; }
   .profileBox img {
     max-width: 200px;
     max-height: 200px; }
 
-#otherProfilesContainer article {
+#otherProfilesContainer .otherProfileBox {
   display: inline-block;
   float: left;
-  height: 700px;
+  height: 750px;
   width: 30%;
   border: solid black 1px;
   margin: 5px;
   padding: 5px; }
-  #otherProfilesContainer article img {
+  #otherProfilesContainer .otherProfileBox img {
     margin-left: 25%;
     height: 200px;
     width: 200px; }
-  #otherProfilesContainer article aside {
+  #otherProfilesContainer .otherProfileBox aside {
     margin: 5px 0;
     border: solid black 1px;
     padding: 5px; }
@@ -28,5 +29,53 @@ label {
   display: inline-block;
   margin: 5px;
   width: 120px; }
+
+.giftContainer {
+  display: inline-block;
+  border: solid black 1px;
+  text-align: center; }
+  .giftContainer img {
+    width: 200px;
+    height: 200px; }
+
+.commentBox {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  border: solid black 1px;
+  width: 33%; }
+
+.comment {
+  position: relative;
+  border: solid black 1px;
+  margin: 5px; }
+
+.sendMessageBox {
+  text-align: center;
+  border: solid black 1px;
+  display: inline-block;
+  min-width: 500px; }
+  .sendMessageBox img {
+    width: 200px;
+    height: 200px; }
+
+.commentSender {
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  background-color: lightblue;
+  margin-top: 0; }
+
+textarea {
+  vertical-align: middle;
+  margin-bottom: 5px; }
+
+.deleteButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  color: red;
+  cursor: pointer;
+  background-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */
